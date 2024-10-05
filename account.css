@@ -1,0 +1,366 @@
+/*REGISTRATION AND LOGIN FORM*/
+.a1{
+    border-bottom: 1px solid rgb(185, 185, 185);
+    height: 40px;
+    text-align: end;
+}
+.a1 i{
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 50px;
+}
+.a1 i:hover{
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 28px;
+    color: rgb(0, 183, 255);
+}
+#reglogpage{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    display: flex;
+}
+.regpage{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 3px rgb(221, 220, 219);
+}
+.regpage p{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+.logpage{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 3px rgb(221, 220, 218);
+    
+}
+.logpage p{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+#p6 input{
+    margin-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+    margin-left: 49px;
+}
+#p5 input{
+    margin-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+    text-transform: capitalize;
+}
+.submit input{
+    width: 400px;
+    height: 35px;
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.submit input:hover{
+    background-color: rgb(179, 132, 13);
+    width: 410px;
+    height: 38px;
+}
+.sabmit input {
+    font-size: 1.1rem;
+    padding: 8px 0px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 300px;
+    background: rgb(125, 125, 235);
+    color: white;
+    transition: 0.9s;
+    cursor: pointer;
+}
+.sabmit input:hover{
+    background-color: #07001f;
+}
+.or{
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.or i {
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0px 15px;
+    background: goldenrod;
+    margin-top: 10px;
+}
+.or i:hover{
+    font-size: 30px;
+}
+.already{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.already input{
+    color: rgb(125, 125, 235);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+.already input:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#p1 input{
+    margin-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+    text-transform: capitalize;
+}
+#p2 input{
+    margin-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+    text-transform: capitalize;
+}
+#p3 input{
+    margin-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+}
+#p4 input{
+    margin-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#p4 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p7 input{
+    margin-top: 20px;
+    width: 250px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#p7 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p3 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p2 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p1 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p5 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p6 input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+#p6 input::placeholder{
+    color: #000000ab;
+}
+#p5 input::placeholder{
+    color: #000000ab;
+}
+#p1 input::placeholder{
+    color: #0000;
+
+}
+#p2 input::placeholder{
+    color: #0000;
+
+}
+#p3 input::placeholder{
+    color: #0000;
+
+}
+#p4 input::placeholder{
+    color: #0000;
+
+}
+#p7 input::placeholder{
+    color: #0000;
+
+}
+#p3 label{
+    font-size: 20px;
+    padding-left: 36px;
+    color: black;
+}
+#p2 label{
+    font-size: 20px;
+    color: black;
+}
+#p1 label{
+    font-size: 20px;
+    color: black;
+}
+#p4 label{
+    font-size: 20px;
+    padding-left: 47px;
+    color: black;
+}
+#p7 label{
+    font-size: 18px;
+    color: black;
+}
+
+.recover {
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    width: fit-content;
+    padding-left: 150px;
+}
+.recover:hover{
+    color: rgb(25, 0, 255);
+    cursor: pointer;
+}
+.head{
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 90px;
+}
+.head img{
+    width:180px;
+    height:100px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.head span{
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.head p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 400px;
+    font-weight: 500;
+}
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .fa-eye {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }  
+
+  .a2{
+    justify-content: space-between;
+    display: flex;
+  }
+  .a3 {
+    min-width: 600px;
+    text-align: end;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  .a4 {
+    min-width: 600px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(32, 24, 2);
+  }

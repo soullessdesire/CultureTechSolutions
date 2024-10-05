@@ -1,0 +1,681 @@
+/*header*/
+body{
+}
+header{
+    display: flex;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 1px 1px rgb(255, 255, 255);
+}
+.active{
+    text-decoration: underline;
+    color: rgb(51, 32, 218);
+    cursor: pointer;
+}
+header img{
+    width: 120px;
+    height: 100px;
+    margin-left: 40px;
+}
+header li{
+    list-style: none;
+    margin-left: 70px;
+}
+header li a:hover{
+    color: blue;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+}
+.li{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.i{
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.i a{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+.y1{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.y2{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 170px;
+}
+.y3{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.y2 h1{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 80px;
+    color: white;
+}
+.y2 h1:hover{
+    cursor: pointer;
+}
+.y3 h1{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.y3:hover{
+    cursor: pointer;
+}
+.y4{
+    margin-left: 0px;
+}
+.y4 h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(0, 102, 255);
+}
+.y4 h1:hover{
+    font-size: 22px;
+    color: goldenrod;
+    cursor: pointer;
+}
+.fl1{
+    display: flex;
+}
+.y5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.y5 img{
+    width: 100px;
+    height: 50px;
+}
+.y5 i{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+#y6{
+    display: flex;
+    margin-top: 10px;
+    height: 120px;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(66, 63, 63);
+}
+.y7 img{
+    width: 180px;
+    height: 120px;
+}
+.y8{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.y8 button{
+    background-color: white;
+    height: 45px;
+    width: 150px;
+    border: none;
+}
+.y8 button:hover{
+    height: 50px;
+    width: 160px;
+    cursor: pointer;
+    background-color: rgb(0, 110, 255);
+}
+.y9{
+    margin-left: 0px;
+}
+.y9 h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: blue;
+}
+.y9 h1:hover{
+    font-size: 22px;
+    color: goldenrod;
+    cursor: pointer;
+}
+.y10{
+    width: 850px;
+    height: 100%;
+    margin: 0px 20px;
+    background-image: url(images/GO\ BC\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.y10 h1{
+    color: white;
+    padding-left: 3px;
+}
+.y10  span{
+    color: goldenrod;
+}
+#al{
+    background-color: aliceblue;
+}
+
+.searchbar{
+    display: flex;
+    background-color: white;
+    width: 580px;
+    height: 40px;
+    margin-top: 30px;
+}
+.searchbar input{
+    width:600px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid blue;
+}
+.searchbar input:focus{
+    outline: transparent;
+}
+.searchbar i{
+    color: black;
+    background-color: rgb(1, 132, 255);
+    font-size: 20px;
+    height: 34px;
+    width: 40px;
+    cursor: pointer;
+    transition: 1s ease;
+    border: none;
+}
+.fa-search{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#y11{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.y12{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.y13 h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-left: 20px;
+    text-align: center;
+}
+.y14{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    background-color: aliceblue;
+    width: 120px;
+    height: 100px;
+}
+.y14:hover{
+    box-shadow: 0px 1px 2px 3px silver;
+    width: 130px;
+    height: 100px;
+    cursor: pointer;
+}
+.y14 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.y14 h1{
+    font-size: 17px;
+    font-weight: 100;
+}
+.y16{
+    margin-left: 20px;
+    background-color: aliceblue;
+    height: 110px;
+    width: 110px;
+}
+
+.y16:hover{
+    height: 110px;
+    width: 130px;
+    box-shadow: 0px 1px 2px 3px silver;
+    cursor: pointer;
+}
+.y16 h1{
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+.y17{
+    display: flex;
+    margin-left: 200px;
+}
+.y17 img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+}
+.y171{
+    display: flex;
+    margin-left: 20px;
+}
+.y171 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.y15{
+    display: flex;
+}
+.y18{
+    display: flex;
+    margin-left: 100px;
+}
+.y18 img{
+    width: 50px;
+    height: 50px;
+}
+.y19{
+    display: flex;
+    margin-right: 10px;
+}
+.y19 img{
+    width: 50px;
+    height: 50px;
+}
+
+.y3a{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.y3a a{
+    float: none;
+    display: block;
+    text-decoration: none;
+}
+.y3a button{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: white;
+}
+.y3a button:hover{
+    background-color: rgb(0, 89, 255);
+    width: 135px;
+    height: 43px;
+    cursor: pointer;
+}
+.y3:hover .y3a button{
+    background-color: rgb(0, 89, 255);
+}
+.y3:hover .y3a{
+    display: block;
+}
+.y2a{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: relative;
+    border: 0.3px solid rgb(0, 89, 255);
+    border-radius: 10px;
+}
+
+.y2b{
+    width: 270px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.y2c{
+    width: 270px;
+    height: 40px;
+    background-color: rgb(0, 89, 255);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.y2:hover .y2a{
+    display: block;
+}
+
+
+.e1 img{
+    width: 500px;
+    height: 400px;
+    
+}
+.e1 button img{
+    width: 180px;
+    height: 180px;
+}
+.e1 button{
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.e1 button img:hover{
+    width: 185px;
+    height: 185px;
+    cursor: pointer;
+}
+.e1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#mainImage{
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.b1{
+    display: flex;
+    box-shadow: 0px 0.5px 1px 1.5px goldenrod;
+    margin-top: 20px;
+}
+.b3{
+    margin-top: 30px;
+    border: 1px solid goldenrod;
+    margin-bottom: 20px;
+    width: 500px;
+}
+.icns{
+    display: flex;
+    color: goldenrod;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.b3 input{
+    background-color: rgb(255, 255, 255);
+    color: goldenrod;
+    font-weight: 800;
+    border: 0.5px solid rgb(0, 0, 0);
+}
+.b3 select{
+    color: goldenrod;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0.5px solid rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.b3 select:focus{
+    border-color: goldenrod;
+}
+.b5{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.b5 span{
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    color: goldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+.b8{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+    margin-left: 20px;
+}
+#b5{
+    color: black;
+    background-color: goldenrod;
+    height: 40px;
+    width: 450px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#b5:hover{
+    background-color: rgb(131, 98, 15);
+    width: 460px;
+    height: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h31{
+    display: flex;
+    margin-top: 10px;
+}
+h31 span{
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    cursor: pointer;
+}
+h31 span:hover{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+}
+.b11{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.b11 i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.b11 span{
+    color: rgb(59, 59, 59);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+}
+.b11 span:hover{
+    color: rgb(24, 23, 23);
+    font-size: 23px;
+    cursor: pointer;
+}
+.b12{
+    margin-top: 10px;
+    font-size: 17px;
+    font-style: italic;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(77, 57, 9, 0.281);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.b13{
+    width: 700px;
+    height: 400px;
+    border: 1px solid goldenrod;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.b13 p{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.b18{
+    font-size: 28px;
+    color: goldenrod;
+}
+.b20{
+    margin-left: 30px;
+}
+.b20 img{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+.b21{
+    color: goldenrod;
+}
+.b22{
+    color: goldenrod;
+}
+
+/*footer*/
+/*footer*/
+
+footer{
+    color: white;
+    background-color: rgb(66, 63, 63);
+    display: flex;
+    flex-direction: column;
+}
+.mainct{
+    display: flex;
+    margin-top: 20px;
+}
+.contact img{
+    width: 120px;
+    height: 120px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.payment-gateway{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+footer h20{
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: bisque;
+    padding-top: 10px;
+}
+footer a:hover{
+    color: rgb(224, 80, 92);
+}
+.contact h18{
+    color: rgb(3, 15, 122);
+}
+.about h21{
+    color: rgb(3, 15, 122);
+}
+.account h17{
+    color: rgb(3, 15, 122);
+}
+.payment-gateway{
+    color: rgb(3, 15, 122);
+}
+.payment-gateway img{
+    width: 80px;
+    height: 50px;
+}
+.newsletters {
+    background-image: url(images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.newsletters button{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    height: 50px;
+    width: 203px;
+    margin-left: 45px;
+    border: none;
+    cursor: pointer;
+    
+}
+.newsletters input{
+    background-color: rgb(0, 153, 255);
+    width: 200px; 
+    height: 50px; 
+    border: none; 
+    color: white; 
+    font-weight: 700;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.newsletters input::placeholder{
+    color: white;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.fl{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 0px;
+    
+}
+.fl1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 152px;
+}
+.fl2{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 200px;
+    
+}
+.fl3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 128, 85);
+    border-radius: 10px;
+}
+.fl4{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(30deg, blue, purple,pink,orange);
+    border-radius: 10px;
+}
+.fl5{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.fl6{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px;
+}

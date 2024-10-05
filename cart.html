@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CultureTech</title>
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <header>
+        <div class="y5">
+            <img src="images/flag.png" alt="">
+            <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="y1">
+            <div class="y4">
+                <h1>Help</h1>
+            </div>
+            <div class="y10">
+                <h1>CultureTech Solutions Grand Opening Is here <span>Upto 60% Off</span></h1>
+            </div>
+            <div class="y9">
+                <h1>About Us</h1>
+            </div>
+        </div>
+        
+        </header>
+        <section id="y6">
+            <div class="y7">
+                <img src="images/cts logo.png" alt="">
+            </div>
+            <div class="y8">
+                <a href="shop.html"><button>Go to shop</button></a>
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Am looking for...">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            
+            <div class="y3">
+                <h1><i class="fa fa-user"></i>  My Account</h1>
+                <div class="y3a">
+                    <a href="contact.html"><button>Sign In</button></a>
+                </div>
+            </div>
+        </section>
+    
+        <style>
+            
+            #myBtm {
+              display: none;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: rgb(0, 153, 255);
+              color: white;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+            
+            #myBtm:hover {
+              background-color: #555;
+            }
+            </style>
+            
+            <button onclick="topFunction()" id="myBtm" title="Go to top">Go to Top</button>
+            
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtm");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+        
+
+
+<section id="cart" style="display:;">
+    <div class="b12">
+        <a href="#popup1" style="margin-left: 610px;"><button style="height: 30px; width: 150px; margin-top: 10px; margin-bottom: 10px; cursor: pointer;">Make Payment</button></a>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <div class="d3"><h51>PAYMENT</h51></div>
+            <a href="#" class="close"><i class="fa fa-times-circle"></i></a>
+            <div class="content">
+                <form action="">
+                    <div class="d1"><h52>Enter Full Name</h52><input type="text" placeholder="Enter your name"></div>
+                    <div class="d1"><h52>Enter Current Location</h52><input type="text" placeholder="Enter your name"></div>
+                    <div class="d1"><h52>Enter Delivery No</h52><input type="text" placeholder="Enter your name"></div>
+                    <div class="d1"><h52>Enter Mpesa No</h52><input type="text" placeholder="Enter your name"></div>
+                    <button class="d2">Complete Payment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <style>
+        .content{
+            height: 600px;
+            background-color: #fff;
+            width: 400px;
+            text-align: center;
+            background-color: white;
+        }
+        .b12 a{
+            text-decoration: none;
+            color: #000000;
+        }
+        .d2{
+            margin-top: 70px;
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            border-color: bisque;
+            background-color: white;
+        }
+        .d2:hover{
+            cursor: pointer;
+            background-color: bisque;
+        }
+        .d3{
+            border-bottom: 1px solid black;
+            margin-bottom: 10px;
+        }
+        .d1{
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .d1 input{
+            border: none;
+            border-bottom: 1px solid black;
+            width: 200px;
+            background: transparent;
+            margin-left: 95px;
+            margin-top: 10px;
+            height: 30px;
+            text-transform: capitalize;
+        }
+        .d1 input:focus{
+            background-color: transparent;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
+        .d1 input::placeholder{
+            visibility: hidden;
+        }
+        h52{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        h50{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: orange;
+            margin: 100px 0px;
+        }
+        .box{
+            width: 20%;
+            margin: 0px auto;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 35px;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            background-clip: padding-box;
+            text-align: center;
+        }
+        .button{
+            font-size: 1em;
+            padding: 10px;
+            color: #fff;
+            border: 2px solid orange;
+            border-radius: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+        }
+        .button:hover{
+            background: orange;
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.685);
+            transition: opacity 500ms;
+            visibility: hidden;
+            opacity: 0;
+            height: 90pc;
+        }
+        .overlay:target{
+            visibility: visible;
+            opacity: 1;
+        }
+        .popup{
+            margin: 70px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            width: 30%;
+            position: relative;
+            transition: all 5s ease-in-out;
+        }
+        .popup h51{
+            margin-top: 0;
+            color: rgb(0, 0, 0);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 300px;
+            padding-left: 130px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        .popup .close{
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            transition: all 200ms;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #000000;
+        }
+        .popup.close:hover{
+            color: orange;
+        }
+        .popup.content{
+            max-height: 30%;
+            overflow: auto;
+        }
+    </style>
+    </section>
+    <div class="empty" style="margin-bottom: 20px;">
+        <h1 style="color: black; font-size: 20px; text-align: center;">Your Cart Is Empty</h1>
+    </div>
+
+    
+<section id="allpd" style="background-color: aliceblue; margin-top: 20px; width: 1250px; margin-left: auto; margin-right: auto;">
+    <div class="hdallpd">
+        <h1 ><i class="fa fa-heart-o" aria-hidden="true" ></i>Might also like</h1>
+        <div class="right">
+            <h2 class="active" style="cursor: pointer;">laptops</h2>
+            <h3 style="cursor: pointer;" id="acss">Accessories</h3>
+        </div>
+    </div>
+    <div class="bdallpd">
+
+        <div class="allpdsp" id="allpdsp">
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                  
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="more">
+            <button id="bton3" style="border: none;">View More</button>
+        </div>
+    </div>
+<div class="thf" id="thf">
+    <div class="bdallpd1" id="bdallpd1" style="display: none;">
+
+        <div class="allpdsp" id="allpdsp">
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                  
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="more">
+            <button id="bton4" style="border: none;">View More</button>
+        </div>
+    </div>
+
+    
+    <div class="bdallpd1" id="bdallpd2" style="display: none;">
+
+        <div class="allpdsp" id="allpdsp">
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                  
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                    
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="pd">
+                <div class="pd">
+                    <img src="images/1h-removebg-preview.png" alt="">
+                   
+                    <p>Latest in the market HP elitebook 630 G9 and now...</p>
+                    <h11 style="color:blue;">Kshs 32,000</h11>
+                    <div class="icns">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="hbutton" style="margin-left: 600px;">
+            <button onclick="myFunction()" style="width: 200px; height: 30px; cursor: pointer; border: none;">View Less</button>
+        </div>
+        
+    </div>
+</div>
+</section>
+
+<script>
+    function myFunction() {
+  var x = document.getElementById("thf");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>
+const hideBtn = document.getElementById('bton3');
+const myDiv = document.getElementById('bdallpd1');
+
+hideBtn.addEventListener('click', function() {
+  if (myDiv.style.display === 'none') {
+    myDiv.style.display = 'block';
+  } else {
+    myDiv.style.display = 'none';
+  }
+});
+</script>
+
+
+<script type="text/javascript">
+    var button = document.getElementById('bton3')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('bdallpd1').style.display = 'block'; 
+        this.style.display = 'none'
+    }   
+</script>
+
+
+<script>
+    const HideBtn = document.getElementById('bton4');
+    const MyDiv = document.getElementById('bdallpd2');
+    
+    HideBtn.addEventListener('click', function() {
+      if (MyDiv.style.display === 'none') {
+        MyDiv.style.display = 'block';
+      } else {
+        MyDiv.style.display = 'none';
+      }
+    });
+    </script>
+    
+    
+    <script type="text/javascript">
+        var button = document.getElementById('bton4')
+        button.addEventListener('click',hideshow,false);
+    
+        function hideshow() {
+            document.getElementById('bdallpd2').style.display = 'block'; 
+            this.style.display = 'none'
+        }   
+    </script>
+
+<footer style="margin-top: 20px; background-color: rgb(66, 63, 63);">
+    <div class="mainct">
+    <div class="contact">
+        <h18 style="color: rgb(255, 255, 255); font-weight: 700;">About</h18>
+        <img src="images/cts logo.png" alt="">
+        <h14>contact: 0791427671</h14>
+        <h15>Email:<a href="emailto:kiuracharles254@gmail.com">kiuracharles254@gmail.com</a></h15>
+        <div class="about">
+            <a href="about.html">About Us</a>
+            <a href="privacy-policy.html">Privacy policy</a>
+            <a href="tandc.html">Terms and Conditions</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+        
+    </div>
+    <div class="account">
+        <h17 style="font-weight: 700; color: rgb(255, 255, 255);">My account</h17>
+        <a href="signIN.html">Sign In</a>
+        <a href="pending.html">Pending Order</a>
+        <a href="help.html">Help</a>
+    </div>
+    <div class="payment-gateway">
+        <h19 style="color: rgb(255, 255, 255); font-weight: 700;">Payment-gateway</h19>
+        <img src="images/mpesa-seeklogo.com.png" alt="">
+    </div>
+<div class="newsletters">
+   <form >
+    <input type="text" placeholder="enter your E-mail" >
+    <button>Sign up for newsletters</button>
+   </form>
+</div>
+<div class="fl">
+    <div class="fl1">
+        <div class="fl3">
+            <a href="https://wa.me/254791427671" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 60px; color: white; padding:40px 50px;"></i></a>
+        </div>
+        <div class="fl4">
+            <a href=""><i class="fa fa-instagram" aria-hidden="true" style="font-size: 60px; color: white; padding:40px 50px;"></i></a>
+        </div>
+    </div>
+    <div class="fl2">
+        <div class="fl5">
+            <a href=""><i class="fa fa-facebook-square" aria-hidden="true" style="font-size: 60px; color: white; padding:40px 50px;"></i></a>
+        </div>
+        <div class="fl6">
+          <a href=""><img src="images/icons8-tiktok-48.png" alt="" style=" color: white; padding:45px 50px;"></a>
+        </div>
+    </div>
+</div>
+</div>
+<h20>copyright@2024 The copyrights to this page are reserved to CultureTech Solutions Only</h20>
+</footer>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CultureTech</title>
+        <link rel="stylesheet" href="kra1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+
+    <header>
+        <img src="images/PngItem_7361208.png" alt="">
+    </header>
+
+    <body>
+        
+        <div class="d1" id="d1">
+            <h1>Warning!</h1>
+            <p>You might be required to input your personal information. Are you sure you would like to continue?</p>
+            <button id="yes" onclick="switchVisible()">Yes</button>
+            <a href="home.html"><button id="no">No</button></a>
+        </div>
+
+
+        <div class="d5" id="d5" style="display: none;">
+            <div class="d6">
+                <h1>Fill in all the required details</h1>
+            </div>
+            <div class="d7">
+                <h1>Enter your full name as per National ID<span>*</span></h1>
+                <input type="text" placeholder="My name">
+            </div>
+            <div class="d8">
+                <h1>Enter your Official Email address<span>*</span></h1>
+                <input type="text" placeholder="My email">
+            </div>
+            <div class="d9">
+                <h1>Enter your ID Number<span>*</span></h1>
+                <input type="text" placeholder="My ID Number">
+            </div>
+
+            <div class="d13">
+                <button id="d13-btn">Submit</button>
+            </div>
+            <div class="d16">
+                <h1><a href="https://wa.me/254791427671" target="_blank">Click me to proceed to application</a></h1>
+            </div>
+
+            <div class="d14">
+                <h1>All areas marked with aestrics (<span>*</span>) are mandatory</h1>
+            </div>
+
+            <div class="d15">
+                <h1><a href="home.html">Click me to go back home</a></h1>
+            </div>
+        </div>
+
+
+    <div class="d4">
+        <div class="d2">
+            <h1>Assurance</h1>
+            <p>CultureTech Solutions ensures you that any information you input here is well protected and can only be viewed  by you and CultureTech Solutions ONLY! And not <br> any other party. <br> 
+            In case of any issues you can personally contact CultureTech Solutions or visit them at their shop</p>
+        </div>
+
+        <div class="d3">
+            <h1>Disclaimer</h1>
+            <p>If you leak your personal information  outside this site and entity CultureTech Solutions is not liable. <br>
+            CultureTech Solutions doesn't act as any of the government entities they provide service but only easen you the burden of application. <br></p>
+        </div>
+    </div>
+
+
+
+
+
+
+    </body>
+
+    <footer>
+        <div class="mainct">
+        <div class="contact">
+            <h18 style="color: rgb(255, 251, 251); font-weight: 700;">More of us</h18>
+            <img src="images/1i.png" alt="">
+            <h14>contact: 0791427671</h14>
+            <h15>Email:<a href="emailto:kiuracharles254@gmail.com">kiuracharles254@gmail.com</a></h15>
+            <div class="about">
+                <a href="about.html">About Us</a>
+                <a href="privacy-policy.html">Privacy policy</a>
+                <a href="tandc.html">Terms and Conditions</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+            
+        </div>
+        <div class="account">
+            <h17 style="font-weight: 700; color: rgb(255, 255, 255);">Just for you</h17>
+            <a href="signIN.html">Sign In</a>
+            <a href="pending.html">Pending Order</a>
+            <a href="help.html">Help</a>
+        </div>
+        <div class="payment-gateway">
+            <h19 style="color: rgb(255, 255, 255); font-weight: 700;">Pay Via</h19>
+            <img src="images/mpesa-seeklogo.com.png" alt="">
+        </div>
+    <div class="newsletters">
+       <form >
+        <input type="text" placeholder="enter your E-mail" >
+        <button>Sign up for newsletters</button>
+       </form>
+    </div>
+    <div class="fl">
+        <div class="fl1">
+            <div class="fl3">
+                <a href="https://wa.me/254791427671" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 60px; color: white; padding:40px 50px;"></i></a>
+            </div>
+            <div class="fl4">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true" style="font-size: 60px; color: white; padding:40px 50px;"></i></a>
+            </div>
+        </div>
+        <div class="fl2">
+            <div class="fl5">
+                <a href=""><i class="fa fa-facebook-square" aria-hidden="true" style="font-size: 60px; color: white; padding:40px 50px;"></i></a>
+            </div>
+            <div class="fl6">
+              <a href=""><img src="images/icons8-tiktok-48.png" alt="" style=" color: white; padding:45px 50px;"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h20>copyright@2024 The copyrights to this page are reserved to CultureTech Solutions Only</h20>
+    </footer>
+
+
+    <script>
+        function switchVisible() {
+            if (document.getElementById('d1')) {
+        
+                if (document.getElementById('d1').style.display == 'none') {
+                    document.getElementById('d1').style.display = 'block';
+                    document.getElementById('d5').style.display = 'none';
+                }
+                else {
+                    document.getElementById('d1').style.display = 'none';
+                    document.getElementById('d5').style.display = 'block';
+                }
+            }
+        }
+        </script>
+        
+        
+</html>

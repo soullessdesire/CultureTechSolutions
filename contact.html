@@ -1,0 +1,178 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CultureTech Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="account.css">
+</head>
+
+<div class="a1">
+    <i class="fa fa-globe" aria-hidden="true"></i>
+</div>
+<div class="head">
+    <p>Welcome to<span>CultureTech Solutions</span></p>
+</div>
+
+
+<body>
+    <section id="reglogpage">
+        <div class="regpage" id="regpage" style="display: none;">
+            <p>Sign Up</p>
+            <form method="POST" action="register.php" class="frm">
+                <div class="input-group" id="p1">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" placeholder="First name" required>
+                </div>
+                <div class="input-group" id="p2">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" placeholder="Last name" required>
+                </div>
+                <div class="input-group" id="p3">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-group" id="p4">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" placeholder="Password" id="password" required>
+                    <button onclick="toggler(this)" type="button" id="ikl">Show</button>
+                </div>
+
+                <style>
+                    #ikl{
+                        border: none;
+                        background-color: transparent;
+                        font-size: 16px;
+                        cursor: pointer;
+                        font-style: italic;
+                        color: grey;
+                    }
+                    #ikl:hover{
+                        color: black;
+                    }
+                </style>
+
+                <script>
+                    function toggler(e) {
+  if( e.innerHTML == 'Hide' ) {
+      e.innerHTML = 'Show'
+      document.getElementById('password').type="password";
+  } else {
+      e.innerHTML = 'Hide'
+      document.getElementById('password').type="text";
+  }
+}
+                </script>
+                
+
+                <div class="input-group" id="p7">
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" name="password" placeholder="Password" id="password1" required>
+                    <button onclick="toggler(this)" type="button" id="ikl">Show</button>
+                </div>
+                <script>
+                    function toggler(e) {
+  if( e.innerHTML == 'Hide' ) {
+      e.innerHTML = 'Show'
+      document.getElementById('password1').type="password";
+  } else {
+      e.innerHTML = 'Hide'
+      document.getElementById('password1').type="text";
+  }
+}
+                </script>
+                <div class="submit">
+                    <input type="submit" value="Sign Up" class="btn">
+                </div>
+            </form>
+            <div class="or">
+                <p style="font-size: medium;">-----or sign up with-----</p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-google" aria-hidden="true"></i>
+            </div>
+            <div class="already">
+                Already have an account?
+                <input type="button" id="signin" value="Sign In" class="btn">
+            </div>
+        </div>
+        
+        <div class="logpage" id="logpage">
+            <p>Sign In</p>
+            <form method="post" action="register.php">
+                <div class="input-group" id="p5">
+                    <input type="text" name="username" placeholder="Username/Email" required>
+                </div>
+                <div class="input-group" id="p6">
+                    <input type="password" name="password" placeholder="Password" id="password2" required>
+                    <button onclick="toggler(this)" type="button" id="ikl">Show</button>
+                </div>
+                <script>
+                    function toggler(e) {
+  if( e.innerHTML == 'Hide' ) {
+      e.innerHTML = 'Show'
+      document.getElementById('password2').type="password";
+  } else {
+      e.innerHTML = 'Hide'
+      document.getElementById('password2').type="text";
+  }
+}
+                </script>
+                <div class="submit">
+                    <input type="submit" value="Sign In" class="btn">
+                </div>
+                <div class="recover">
+                    <a href="#">Recover password</a>
+                </div>
+            </form>
+            <div class="or">
+                <p style="font-size: medium;">-----or sign in with-----</p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-google" aria-hidden="true"></i>
+            </div>
+            <div class="already">
+                Don't have an account yet?
+                <input type="button" id="signup" value="Sign Up" class="btn">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+<div class="a2">
+    
+    <div class="a4">
+        <p>
+            CultureTech Solutions jurisdiction is limited to Kenya therefore any company or institution operating under this name outside this jurisdiction is not us and therefore operate with them on your own risk <br>
+<br>
+            Our services and product provision is not limited to online you can visit us at our shop if you have any enquiries or when you feel it is not safe for you to have your services and products delivered online. Any entity that tells you that you cannot see us at our shop is not us!!! <br>
+<br>
+            Any personal information that you input in our website is well protected and safeguarded by us. In case of personal information leak by us you can always go to the authorities <br>
+<br>
+            Thank you for choosing CultureTech Solutions as your product and service deliver <br>
+            <br>
+        </p>
+    </div>
+
+    <div class="a3">
+        <a href="hlp.html">
+            Need help signing in?
+        </a>
+        <br>
+        <br>
+        <a href="home.html">
+            I don't want to sign in
+        </a>
+    </div>
+
+</div>
+
+
+
+</html>

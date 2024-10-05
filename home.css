@@ -1,0 +1,997 @@
+/*header*/
+body{
+}
+header{
+    display: flex;
+    height: 65px;
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 1px 1px rgb(255, 255, 255);
+}
+header img{
+    width: 120px;
+    height: 100px;
+    margin-left: 40px;
+}
+header li{
+    list-style: none;
+    margin-left: 70px;
+}
+header li a:hover{
+    color: blue;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+}
+.li{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.i{
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.i a{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+/*slider*/
+.slider{
+    width: 1250px;
+    margin: 0px 40px;
+    height: 400px;
+    background-image: url(images/GO\ BC\ 6.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 20px;
+}
+.im1{
+    margin-left: 150px;
+}
+.slider img{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.more1{
+    margin-left: 20px;
+}
+.more1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 120px;
+}
+.more1 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.more1 h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+/*aftersale services*/
+.afs{
+    display: flex;
+    width: 1200px;
+    margin: 0px 50px;
+}
+.afs1{
+    display: flex;
+    margin-left: 70px;
+    box-shadow: 0px 1px 2px 3px silver;
+    border-color: silver;
+    margin-top: 20px;
+    width: 350px;
+    height: 80px;
+}
+.afs1 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+h4{
+    color: rgb(49, 48, 48);
+    font-family: 'Times New Roman', Times, serif;
+}
+.h5{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: none;
+}
+.more3{
+    margin-right: 10px;
+}
+h6 img{
+    height: 50px;
+    width: 50px;
+}
+
+/*advert*/
+#advert{
+    display: flex;
+    margin: 20px 30px;
+    width: 1200px;
+}
+.a1{
+    background-image: url(images/GO\ BC\ 6.png);
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+    width: 400px;
+    margin: 10px;
+}
+.a1 img{
+    width: 300px;
+    height: 350px;
+}
+.a1 h1{
+    color: white;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding-left: 25px;
+}
+.a1 h2{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+.a1 button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+}
+.a1 button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 102, 255);
+    height: 25px;
+    width: 140px;
+    margin-left: 60px;
+}
+
+.a5 button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+}
+.a5 button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    height: 30px;
+    width: 130px;
+    margin-left: 10px;
+    color: black;
+    border: 1px solid black;
+}
+.a3 {
+    display: flex;
+}
+.a4 {
+    display: flex;
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+}
+.a5 {
+    height: 250px;
+    width: 510px;
+    background-image: url(images/GO\ BC\ 6.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    display: flex;
+}
+.a5h{
+    margin-top: 39px;
+}
+.a5h h1{
+    color: white;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.a5h h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.a8 {
+    height: 250px;
+    width: 510px;
+    background-image: url(images/GO\ BC\ 6.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    display: flex;
+}
+.a8 img{
+    height: 250px;
+    width: 300px;
+}
+.a8h h1{
+    color: white;
+    padding-left: 10px;
+}
+.a8h h2{
+    color: white;
+    padding-left: 15px;
+    font-weight: 10;
+}
+.a8h button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+}
+.a8h button:hover{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.a6 {
+    height: 250px;
+    width: 380px;
+    background-image: url(images/GO\ BC\ 6.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+.a6 img{
+    width: 200px;
+    height: 150px;
+    padding-left: 70px;
+}
+.a6 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 70px;
+}
+.a6 button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+}
+.a6 button:hover{
+    color: purple;
+    background-color: transparent;
+    width: 100px;
+    height: 23px;
+    border: 1px solid purple;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.a7 {
+    height: 250px;
+    width: 380px;
+    background-image: url(images/GO\ BC\ 6.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+.a7 img{
+    width: 200px;
+    height: 150px;
+    padding-left: 70px;
+}
+.a7 h1{
+    color: white;
+    font-weight: 10;
+    padding-left: 70px;
+}
+.a7 button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+    margin-left: 75px;
+}
+.a7 button:hover{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 75px;
+}
+
+/*top products*/
+.charlo{
+    text-decoration-line: underline;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: rgb(251, 251, 255);
+    border-color: silver;
+}
+
+
+
+.a9{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/GO\ BC\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.a9 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.a11{
+    display: flex;
+}
+.a10{
+    margin-left: 20px;
+}
+h8, h9, h10 {
+    margin-right: 20px;
+}
+p1{
+    width: 100px;
+    border-bottom: 1px solid black;
+}
+#prod{
+    background-color: aliceblue;
+    width: 1250px;
+    margin: 10px 40px;
+
+}
+.single-pd{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icns{
+    display: flex;
+    color: goldenrod;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.i5{
+    color: silver;
+}
+.pd img{
+    width: 185px;
+    height: 150px;
+}
+.pd{
+    width: 202px;
+    height: 298px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.pd:hover{
+    box-shadow: 0px 1px 2px 3px silver;
+    cursor: pointer;
+}
+.pd p {
+    padding-left: 5px;
+    font-size: 20px;
+}
+.pd h11{
+    padding-left: 5px;
+    font-size: 20px;
+}
+.pd button{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+/*services*/
+
+.svhd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 50px;
+    background-image: url(images/GO\ BC\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right{
+    margin-top: 20px;
+}
+.right h12, h13{
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right button{
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.svhd h14{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 100;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+.svs{
+    width: 250px;
+    height: 270px;
+    background-color: white;
+    margin: 20px 20px;
+}
+.svs:hover{
+    width: 255px;
+    height: 272px;
+    box-shadow: 0px 1px 2px 3px silver;
+}
+.svs img{
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+}
+.svsmain{
+    display: flex;
+    background-color: aliceblue;
+}
+#services {
+    margin: 10px 40px;
+    width: 1250px;
+}
+.ecitizen{
+    padding-left: 5px;
+}
+.ecitizen a{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+    font-weight: 400;
+}
+.ecitizen a:hover{
+    color: black;
+}
+.worker {
+    font-size: 20px;
+    padding-left: 5px;
+    color: rgb(0, 140, 255);
+}
+.svsmain2{
+    display: flex;
+    background-color: aliceblue;
+}
+
+
+/*footer*/
+
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 63, 63);
+    display: flex;
+    flex-direction: column;
+}
+.mainct{
+    display: flex;
+    margin-top: 20px;
+}
+.contact img{
+    width: 120px;
+    height: 120px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.payment-gateway{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+footer h20{
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: bisque;
+    padding-top: 10px;
+}
+footer a:hover{
+    color: rgb(248, 182, 188);
+}
+.contact h18{
+    color: rgb(3, 15, 122);
+}
+.about h21{
+    color: rgb(3, 15, 122);
+}
+.account h17{
+    color: rgb(3, 15, 122);
+}
+.payment-gateway{
+    color: rgb(3, 15, 122);
+}
+.payment-gateway img{
+    width: 80px;
+    height: 50px;
+}
+.newsletters {
+    background-image: url(images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.newsletters button{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    height: 50px;
+    width: 203px;
+    margin-left: 45px;
+    border: none;
+    cursor: pointer;
+    
+}
+.newsletters input{
+    background-color: rgb(0, 153, 255);
+    width: 200px; 
+    height: 50px; 
+    border: none; 
+    color: white; 
+    font-weight: 700;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.newsletters input::placeholder{
+    color: white;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.fl{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 0px;
+    
+}
+.fl1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 152px;
+}
+.fl2{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 200px;
+    
+}
+.fl3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 128, 85);
+    border-radius: 10px;
+}
+.fl4{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(30deg, blue, purple,pink,orange);
+    border-radius: 10px;
+}
+.fl5{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.fl6{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+.y1{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.y2{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 170px;
+    color: white;
+}
+.y3{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+}
+.y2 h1{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+}
+.y2 h1:hover{
+    cursor: pointer;
+}
+.y3 h1{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.y3:hover{
+    cursor: pointer;
+}
+.y4{
+    margin-left: 0px;
+}
+.y4 h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(0, 102, 255);
+}
+.y4 h1:hover{
+    font-size: 22px;
+    color: goldenrod;
+    cursor: pointer;
+}
+.fl1{
+    display: flex;
+}
+.y5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.y5 img{
+    width: 100px;
+    height: 50px;
+}
+.y5 i{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+#y6{
+    display: flex;
+    margin-top: 10px;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(66, 63, 63);
+    height: 120px;
+}
+.y7 img{
+    width: 180px;
+    height: 120px;
+}
+.y8{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.y8 button{
+    background-color: white;
+    height: 45px;
+    width: 150px;
+    border: none;
+    font-weight: 600;
+}
+.y8 button:hover{
+    height: 50px;
+    width: 160px;
+    cursor: pointer;
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+.y9{
+    margin-left: 40px;
+}
+.y9 h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: blue;
+}
+.y9 h1:hover{
+    font-size: 22px;
+    color: goldenrod;
+    cursor: pointer;
+}
+.y10{
+    width: 850px;
+    height: 100%;
+    margin: 0px 20px;
+    background-image: url(images/6376764.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.y10 h1{
+    color: white;
+    padding-left: 3px;
+}
+.y10  span{
+    color: goldenrod;
+}
+.searchbar{
+    display: flex;
+    background-color: white;
+    width: 580px;
+    height: 40px;
+    margin-top: 40px;
+}
+.searchbar input{
+    width:600px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid blue;
+}
+.searchbar input:focus{
+    outline: transparent;
+}
+.searchbar i{
+    color: black;
+    background-color: rgb(1, 132, 255);
+    font-size: 20px;
+    height: 34px;
+    width: 40px;
+    cursor: pointer;
+    transition: 1s ease;
+    border: none;
+}
+.fa-search{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#y11{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.y12{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.y13 h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-left: 20px;
+    text-align: center;
+}
+.y14{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    background-color: aliceblue;
+    width: 120px;
+    height: 100px;
+}
+.y14:hover{
+    box-shadow: 0px 1px 2px 3px silver;
+    width: 130px;
+    height: 100px;
+    cursor: pointer;
+}
+.y14 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.y14 h1{
+    font-size: 17px;
+    font-weight: 100;
+}
+.y16{
+    margin-left: 20px;
+    background-color: aliceblue;
+    height: 110px;
+    width: 110px;
+}
+
+.y16:hover{
+    height: 110px;
+    width: 130px;
+    box-shadow: 0px 1px 2px 3px silver;
+    cursor: pointer;
+}
+.y16 h1{
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+.y17{
+    display: flex;
+    margin-left: 200px;
+}
+.y17 img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+}
+.y171{
+    display: flex;
+    margin-left: 20px;
+}
+.y171 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.y15{
+    display: flex;
+}
+.y18{
+    display: flex;
+    margin-left: 100px;
+}
+.y18 img{
+    width: 50px;
+    height: 50px;
+}
+.y19{
+    display: flex;
+    margin-right: 10px;
+}
+.y19 img{
+    width: 50px;
+    height: 50px;
+}
+
+.y3a{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.y3a a{
+    float: none;
+    display: block;
+    text-decoration: none;
+}
+.y3a button{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+.y3a button:hover{
+    background-color: rgb(0, 89, 255);
+    width: 135px;
+    height: 43px;
+    cursor: pointer;
+    color: white;
+}
+.y3:hover .y3a button{
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+.y3:hover .y3a{
+    display: block;
+}
+.y2a{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+}
+.y2b{
+    width: 270px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 600;
+}
+.y2c{
+    width: 270px;
+    height: 40px;
+    background-color: rgb(0, 89, 255);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+.y2:hover .y2a{
+    display: block;
+}
+ .shopp{
+    background-image: url(images/GO\ BC\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+ }
+ .shopp button{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: white;
+    margin-top: 15px;
+    border: none;
+    font-weight: 600;
+ }
+ .shopp button:hover{
+    background-color: rgb(0, 89, 255);
+    cursor: pointer;
+    width: 155px;
+    height: 55px;
+    margin-left: 17px;
+    color: white;
+ }
+ .shopp h1{
+    color: white;
+    padding-left: 40px;
+ }
+ .tp{
+    background-image: url(images/GO\ BC\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+}
+.tp h1{
+    color: white;
+    text-align: center;
+}
+.tp span{
+    color: rgb(0, 0, 0);
+}
